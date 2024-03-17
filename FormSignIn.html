@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+			<title>Form Sign In</title>
+   			<link rel="icon" href="LOGO-UPI.png" sizes="144x144">
+            <link rel="stylesheet" href="FormSignIn.css">
+        </head>
+        <body>
+        <nav class="navbar">
+            <div class="logo">
+                <img class="logoUPI" src="LOGO-UPI.png" height="70px">
+            </div>
+            <div class="navigasi">	
+				<ul>
+					<a href="Homepage.html" class="list"><li>Home</li></a>
+                    <a href="FormLogIn.html" class="list"><li>Log In</li></a>
+					<a href="FormSignIn.html" class="list"><li>Sign In</li></a>
+				</ul>
+		    </div>
+        </nav>
+            <form class="biodata">
+                <h3 align="center">Form Pendaftaran Akun Email Mahasiswa</h3>
+                <table border="0">
+                    <tr>
+                        <td><label>Email</label></td>
+                        <td><label>:</label></td>
+                        <td><input type="text" placeholder="rakaindra@upi.edu"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Password</label></td>
+                        <td><label>:</label></td>
+                        <td><input type="password" placeholder="Masukkan Password"</td>
+                    </tr>
+                    <tr>
+                        <td><label>NIM</label></td>
+                        <td><label>:</label></td>
+                        <td><input type="text" placeholder="Masukkan NIM"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Nama</label></td>
+                        <td><label>:</label></td>
+                        <td><input type="text" placeholder="Masukkan Nama"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Kampus Daerah</label></td>
+                        <td><label>:</label></td>
+                        <td>
+                            <select>
+                                <option value="pilihSatu">(Pilih Satu)</option>
+                                <option value="Pusat">Pusat</option>
+                                <option value="Cibiru">Cibiru</option>
+                                <option value="Tasikmalaya">Tasikmalaya</option>
+                                <option value="Serang">Serang</option>
+                                <option value="Sumedang">Sumedang</option>
+                                <option value="Purwakarta">Purwakarta</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Jenis Kelamin</label></td>
+                        <td><label>:</label></td>
+                        <td>
+                            <label><input type="radio" name="Jenis_kelamin">Laki-Laki</label>
+                            <label><input type="radio" name="Jenis_kelamin">Perempuan</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Agama</label></td>
+                        <td><label>:</label></td>
+                        <td>
+                            <select>
+                                <option value="pilihSatu">(Pilih Satu)</option>
+                                <option value="Islam">Islam</option>
+                                <option value="Protestan">Protestan</option>
+                                <option value="Katolik">Katolik</option>
+                                <option value="Hindu">Hindu</option>
+                                <option value="Buddha">Buddha</option>
+                                <option value="Atheis">Atheis</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Tanggal Lahir</label></td>
+                        <td><label>:</label></td>
+                        <td><input type="date"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><input type="submit"></td>
+                    </tr>
+                </table>
+            </form>
+        </body>
+    </html>

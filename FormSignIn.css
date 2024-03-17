@@ -1,0 +1,116 @@
+/*
+*  CSS Stylesheet for FormSignIn.html
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    margin: 0px;
+    padding: 0px;
+    background-color: antiquewhite;
+}
+
+.navbar .logo {
+    float: left;
+}
+
+.navbar .logo img{
+    margin: 5px 0 0 20px;
+    padding: auto;
+}
+
+.navbar .navigasi {
+    margin: 0px;
+    padding: 0 5px 0 0;
+    float: right;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.navbar .navigasi ul {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.navbar .navigasi li {
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    width: 100px;
+    padding-top: 20px;
+    top: 0;
+    border: #000000 1px;
+}
+
+.navigasi li:hover {
+    background-color: aliceblue;
+    margin-top: 0px;
+    top: 0;
+}
+
+.list {
+    text-decoration: none;
+    font-family: "Mitr", sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+	color: black;
+}
+
+.biodata {
+    font-family: "Mitr", sans-serif;
+    font-weight: normal;
+    width: 450px;
+    height: auto;
+    border: 2px dashed #000000;
+    border-radius: 4px;
+    display: block;
+    box-sizing: border-box;
+    margin: 50px auto 35px auto;
+    padding: 0px auto 10px auto;
+    background-color: antiquewhite;
+}
+
+.biodata table {
+    margin: auto auto;
+}
+
+.biodata input[type=text], input[type=date], input[type=password], option{
+    width: 100%;
+    height: 20px;
+    margin: 2px 4px;
+    padding: 2px 4px;
+    background-color: beige;
+}
+
+.biodata select {
+    width: 105%;
+    height: 20px;
+    margin: 2px 4px;
+    padding: 2px 4px;
+    background-color: beige;
+}
+
+.biodata input[type=text], input[type=date], input[type=password], select {
+    border: 1px groove #000000;
+    border-radius: 5px;
+}
+
+.biodata input[type=submit] {
+    font-family: "Mitr", sans-serif;
+    font-weight: normal;
+    margin-bottom: 15px;
+    width: 105%;
+    height: 30px;
+    cursor: pointer;
+    background-color: beige;
+    border-radius: 5px;
+}
+
